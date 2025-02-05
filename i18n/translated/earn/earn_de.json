@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error" : "Systemfehler",
+  "fixed_earn_compliance_reject" : "Region eingeschränkt",
+  "fixed_earn_risk_reject" : "Unter Risikokontrolle",
+  "fixed_earn_request_fail" : "Die Anfrage ist fehlgeschlagen. Bitte versuchen Sie es erneut",
+  "fixed_earn_invalid_parameters" : "Ungültige Parameter",
+  "fixed_earn_balance_not_enough" : "Insufficient balance",
+  "fixed_earn_transfer_failed" : "Transfer fehlgeschlagen Bitte versuchen Sie es erneut.",
+  "fixed_earn_invalid_coin" : "Ungültiger Coin",
+  "fixed_earn_invalid_product" : "Ungültiges Produkt",
+  "fixed_earn_exceed_platform_limit" : "Überschreitet die Höchstgrenze",
+  "fixed_earn_exceed_user_limit" : "Überschreitet die individuelle Höchstgrenze",
+  "fixed_earn_below_min_amount" : "Weniger als der Mindestabonnementbetrag",
+  "fixed_earn_exceed_product_limit" : "Übersteigt das Gesamtkontingent des Produkts",
+  "fixed_earn_exceed_user_product_limit" : "Überschreitet die Obergrenze für das Einzelabonnement",
+  "fixed_earn_no_early_redeem" : "Eine vorzeitige Rückzahlung wird nicht unterstützt",
+  "fixed_earn_order_status_changed" : "Bestellstatus geändert",
+  "fixed_earn_order_not_found" : "Order existiert nicht",
+  "fixed_earn_user_order_not_match" : "Bestellung stimmt nicht überein"
+}

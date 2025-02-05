@@ -1,0 +1,36 @@
+    // syntax doc
+    syntax = "v1" // syntax comment
+
+    // type doc
+    type Request {
+        Name string `path:"name,options=you|me"`
+    }
+
+    type Response {
+        Message string `json:"message"`
+    }
+    type TestRequest Request
+    type TestRequest1 map[string]Request
+    type TestRequest2 map[string]int
+    
+    // service doc
+    @server(
+        group: test
+        middleware: m1,m2
+        prefix: v1
+    )
+
+    
+
+    service greet-api {
+        // handler doc
+        @handler GreetHandler // handler comment
+        get /from/:name(Request) returns (Response);
+
+        @handler TestHandler 
+        get /test(TestRequest) returns (Response);
+    }
+
+    
+
+

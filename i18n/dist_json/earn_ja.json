@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error": "システムエラー",
+  "fixed_earn_compliance_reject": "地域制限",
+  "fixed_earn_risk_reject": "リスクコントロール下",
+  "fixed_earn_request_fail": "リクエストが失敗しました。もう一度やり直してください",
+  "fixed_earn_invalid_parameters": "パラメータが無効です",
+  "fixed_earn_balance_not_enough": "残高不足",
+  "fixed_earn_transfer_failed": "送金失敗。再試行してください。",
+  "fixed_earn_invalid_coin": "無効な通貨",
+  "fixed_earn_invalid_product": "無効な商品です",
+  "fixed_earn_exceed_platform_limit": "最大限度額を超えています",
+  "fixed_earn_exceed_user_limit": "個人の最大限度額を超えています。",
+  "fixed_earn_below_min_amount": "最低申込金額を下回っています。",
+  "fixed_earn_exceed_product_limit": "商品の総枠を超えています。",
+  "fixed_earn_exceed_user_product_limit": "個人の申込上限を超えています。",
+  "fixed_earn_no_early_redeem": "早期引き換えはサポートされていません。",
+  "fixed_earn_order_status_changed": "注文ステータスが変更されました。",
+  "fixed_earn_order_not_found": "注文はありません",
+  "fixed_earn_user_order_not_match": "注文が一致しません"
+}

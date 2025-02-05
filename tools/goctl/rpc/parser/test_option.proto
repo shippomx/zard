@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package stream;
+
+option go_package = "github.com/shippomx/zard";
+
+message placeholder {}
+
+service greet {
+  rpc hello (placeholder) returns (placeholder);
+}

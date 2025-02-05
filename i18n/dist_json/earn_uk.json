@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error": "Системна помилка",
+  "fixed_earn_compliance_reject": "Регіон обмежений",
+  "fixed_earn_risk_reject": "Під контролем ризику",
+  "fixed_earn_request_fail": "Помилка запиту, спробуйте ще раз",
+  "fixed_earn_invalid_parameters": "Недійсні параметри",
+  "fixed_earn_balance_not_enough": "Insufficient balance\",«Недостатній баланс»",
+  "fixed_earn_transfer_failed": "Не вдалося переказати. Будь ласка, спробуйте ще раз.",
+  "fixed_earn_invalid_coin": "Недійсна монета",
+  "fixed_earn_invalid_product": "Недійсний товар",
+  "fixed_earn_exceed_platform_limit": "Перевищує максимальний ліміт",
+  "fixed_earn_exceed_user_limit": "Перевищує індивідуальну максимальну межу",
+  "fixed_earn_below_min_amount": "Менше мінімальної суми підписки",
+  "fixed_earn_exceed_product_limit": "Перевищує загальну квоту продукту",
+  "fixed_earn_exceed_user_product_limit": "Перевищує обмеження індивідуальної підписки",
+  "fixed_earn_no_early_redeem": "Дострокове погашення не підтримується",
+  "fixed_earn_order_status_changed": "Статус ордера змінено",
+  "fixed_earn_order_not_found": "Ордер не існує",
+  "fixed_earn_user_order_not_match": "Ордер не співпадає"
+}

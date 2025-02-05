@@ -1,0 +1,17 @@
+coverage:
+  status:
+    patch: 
+      default:
+        target: 90
+        threshold: 3
+    project: false # disabled because project coverage is not stable
+    
+comment:
+  layout: "flags, files"
+  behavior: once
+  require_changes: true
+ignore:
+  - "tools"
+  - "**/mock"
+  - "**/*_mock.go"
+  - "**/*test"

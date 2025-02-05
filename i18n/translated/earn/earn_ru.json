@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error" : "Ошибка системы.",
+  "fixed_earn_compliance_reject" : "Регион ограничен",
+  "fixed_earn_risk_reject" : "Под контролем риска",
+  "fixed_earn_request_fail" : "Запрос не удался, попробуйте еще раз",
+  "fixed_earn_invalid_parameters" : "Недопустимые параметры",
+  "fixed_earn_balance_not_enough" : "Insufficient balance",
+  "fixed_earn_transfer_failed" : "Сбой перевода Пожалуйста, попробуйте еще раз.",
+  "fixed_earn_invalid_coin" : "Недействительная монета",
+  "fixed_earn_invalid_product" : "Неверный продукт",
+  "fixed_earn_exceed_platform_limit" : "Превышение максимального лимита",
+  "fixed_earn_exceed_user_limit" : "Превышает индивидуальный максимальный лимит",
+  "fixed_earn_below_min_amount" : "Меньше минимальной суммы подписки",
+  "fixed_earn_exceed_product_limit" : "Превышает общую квоту продукта",
+  "fixed_earn_exceed_user_product_limit" : "Превышает лимит индивидуальной подписки",
+  "fixed_earn_no_early_redeem" : "Досрочное погашение не поддерживается.",
+  "fixed_earn_order_status_changed" : "Статус ордера изменен",
+  "fixed_earn_order_not_found" : "Запрос не существует",
+  "fixed_earn_user_order_not_match" : "Ордер не совпадает"
+}

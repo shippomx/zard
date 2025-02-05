@@ -1,0 +1,4 @@
+{
+  "GATEPAY_MERCHANT_WHITE_BRAND_LOGO_EXCEED_LIMIT" : "L'image est trop grande. Veuillez le redimensionner et réessayer.",
+  "GATEPAY_MERCHANT_WHITE_BRAND_CURRENCY_NOT_SUPPORT" : "La devise sélectionnée n'est pas prise en charge par la caisse White-label ."
+}

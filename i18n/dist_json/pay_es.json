@@ -1,0 +1,4 @@
+{
+  "GATEPAY_MERCHANT_WHITE_BRAND_LOGO_EXCEED_LIMIT": "La imagen es demasiado grande. Reduzca el tamaño e inténtelo de nuevo.",
+  "GATEPAY_MERCHANT_WHITE_BRAND_CURRENCY_NOT_SUPPORT": "La moneda seleccionada no se admite para la pasarela de pago de marca blanca."
+}

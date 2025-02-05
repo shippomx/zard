@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error" : "Error del sistema",
+  "fixed_earn_compliance_reject" : "Región restringida",
+  "fixed_earn_risk_reject" : "Bajo control de riesgos",
+  "fixed_earn_request_fail" : "Solicitud fallida, inténtelo de nuevo",
+  "fixed_earn_invalid_parameters" : "Parámetros no válidos",
+  "fixed_earn_balance_not_enough" : "Balance insuficiente",
+  "fixed_earn_transfer_failed" : "La transferencia falló. Inténtelo de nuevo.",
+  "fixed_earn_invalid_coin" : "Moneda no válida",
+  "fixed_earn_invalid_product" : "Producto no válido",
+  "fixed_earn_exceed_platform_limit" : "Excede el límite máximo",
+  "fixed_earn_exceed_user_limit" : "Excede el límite máximo individual",
+  "fixed_earn_below_min_amount" : "Cantidad inferior a la suscripción mínima",
+  "fixed_earn_exceed_product_limit" : "Excede la cuota total del producto",
+  "fixed_earn_exceed_user_product_limit" : "Excede el límite de suscripción individual",
+  "fixed_earn_no_early_redeem" : "No se admite el canje anticipado",
+  "fixed_earn_order_status_changed" : "El estado de la orden ha cambiado",
+  "fixed_earn_order_not_found" : "La orden no existe",
+  "fixed_earn_user_order_not_match" : "La orden no coincide"
+}

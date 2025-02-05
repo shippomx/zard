@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error": "Kesalahan sistem",
+  "fixed_earn_compliance_reject": "Wilayah dibatasi",
+  "fixed_earn_risk_reject": "Di bawah kendali risiko",
+  "fixed_earn_request_fail": "Permintaan gagal, mohon coba kembali",
+  "fixed_earn_invalid_parameters": "Parameter tidak valid",
+  "fixed_earn_balance_not_enough": "Insufficient balance",
+  "fixed_earn_transfer_failed": "Transfer gagal. Mohon coba kembali.",
+  "fixed_earn_invalid_coin": "Koin tidak valid",
+  "fixed_earn_invalid_product": "Produk tidak valid",
+  "fixed_earn_exceed_platform_limit": "Melebihi batas maksimum",
+  "fixed_earn_exceed_user_limit": "Melebihi batas maksimum individu",
+  "fixed_earn_below_min_amount": "Kurang dari jumlah langganan minimum",
+  "fixed_earn_exceed_product_limit": "Melebihi total kuota produk",
+  "fixed_earn_exceed_user_product_limit": "Melebihi batas langganan individu",
+  "fixed_earn_no_early_redeem": "Redeem awal tidak didukung",
+  "fixed_earn_order_status_changed": "Status pesanan berubah",
+  "fixed_earn_order_not_found": "pesanan tidak ada",
+  "fixed_earn_user_order_not_match": "Pesanan tidak cocok"
+}

@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error": "系統錯誤",
+  "fixed_earn_compliance_reject": "存在合法限制",
+  "fixed_earn_risk_reject": "存在風控限制",
+  "fixed_earn_request_fail": "請求失敗，請重試",
+  "fixed_earn_invalid_parameters": "無效參數",
+  "fixed_earn_balance_not_enough": "可用餘額不足",
+  "fixed_earn_transfer_failed": "劃轉失敗，請重試",
+  "fixed_earn_invalid_coin": "幣種無效",
+  "fixed_earn_invalid_product": "產品無效",
+  "fixed_earn_exceed_platform_limit": "超過平台理財限額",
+  "fixed_earn_exceed_user_limit": "超過個人理財限額",
+  "fixed_earn_below_min_amount": "小於個人最小起購",
+  "fixed_earn_exceed_product_limit": "超過產品總額度",
+  "fixed_earn_exceed_user_product_limit": "超過個人申購總額度",
+  "fixed_earn_no_early_redeem": "不允許提前贖回",
+  "fixed_earn_order_status_changed": "訂單狀態已變更",
+  "fixed_earn_order_not_found": "訂單不存在",
+  "fixed_earn_user_order_not_match": "訂單不匹配"
+}

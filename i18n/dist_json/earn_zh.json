@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error": "系统错误",
+  "fixed_earn_compliance_reject": "存在合规限制",
+  "fixed_earn_risk_reject": "存在风控限制",
+  "fixed_earn_request_fail": "请求失败，请重试",
+  "fixed_earn_invalid_parameters": "无效参数",
+  "fixed_earn_balance_not_enough": "可用余额不足",
+  "fixed_earn_transfer_failed": "划转失败，请重试",
+  "fixed_earn_invalid_coin": "币种无效",
+  "fixed_earn_invalid_product": "产品无效",
+  "fixed_earn_exceed_platform_limit": "超过平台理财限额",
+  "fixed_earn_exceed_user_limit": "超过个人理财限额",
+  "fixed_earn_below_min_amount": "小于个人最小起购",
+  "fixed_earn_exceed_product_limit": "超过产品总额度",
+  "fixed_earn_exceed_user_product_limit": "超过个人申购总额度",
+  "fixed_earn_no_early_redeem": "不允许提前赎回",
+  "fixed_earn_order_status_changed": "订单状态已变更",
+  "fixed_earn_order_not_found": "订单不存在",
+  "fixed_earn_user_order_not_match": "订单不匹配"
+}

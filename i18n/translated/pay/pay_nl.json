@@ -1,0 +1,4 @@
+{
+  "GATEPAY_MERCHANT_WHITE_BRAND_LOGO_EXCEED_LIMIT" : "The image is too large. Please resize it and try again.",
+  "GATEPAY_MERCHANT_WHITE_BRAND_CURRENCY_NOT_SUPPORT" : "The selected currency is not supported for the white-label checkout counter."
+}
