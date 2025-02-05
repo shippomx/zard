@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error" : "ข้อผิดพลาดของระบบ",
+  "fixed_earn_compliance_reject" : "ภูมิภาคที่ถูกจำกัด",
+  "fixed_earn_risk_reject" : "ภายใต้การควบคุมความเสี่ยง",
+  "fixed_earn_request_fail" : "การร้องขอล้มเหลว กรุณาลองอีกครั้ง",
+  "fixed_earn_invalid_parameters" : "พารามิเตอร์ไม่ถูกต้อง",
+  "fixed_earn_balance_not_enough" : "Insufficient balance",
+  "fixed_earn_transfer_failed" : "โอนล้มเหลว กรุณาลองอีกครั้ง",
+  "fixed_earn_invalid_coin" : "เหรียญไม่ถูกต้อง",
+  "fixed_earn_invalid_product" : "ผลิตภัณฑ์ไม่ถูกต้อง",
+  "fixed_earn_exceed_platform_limit" : "เกินขีดจำกัดสูงสุด",
+  "fixed_earn_exceed_user_limit" : "เกินขีดจำกัดสูงสุดของแต่ละคน",
+  "fixed_earn_below_min_amount" : "น้อยกว่าจำนวนเงินสมัครสมาชิกขั้นต่ำ",
+  "fixed_earn_exceed_product_limit" : "เกินโควตารวมผลิตภัณฑ์",
+  "fixed_earn_exceed_user_product_limit" : "เกินขีดจำกัดการสมัครสมาชิกรายบุคคล",
+  "fixed_earn_no_early_redeem" : "ไม่รองรับการถอนคืนก่อนกำหนด",
+  "fixed_earn_order_status_changed" : "สถานะการสั่งซื้อเปลี่ยนแปลงแล้ว",
+  "fixed_earn_order_not_found" : "ไม่มีคำสั่ง",
+  "fixed_earn_user_order_not_match" : "คำสั่งไม่ตรงกัน"
+}

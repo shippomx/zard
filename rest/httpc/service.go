@@ -1,0 +1,108 @@
+package httpc
+
+import (
+	"context"
+	"net/http"
+
+	"github.com/shippomx/zard/core/breaker"
+)
+
+type (
+	// Option is used to customize the *http.Client.
+	Option func(r *http.Request) *http.Request
+
+	// Service represents a remote HTTP service.
+	Service interface {
+		// Do sends an HTTP request with the given arguments and returns an HTTP response.
+		Do(ctx context.Context, method, url string, data any) (*http.Response, error)
+		// DoRequest sends a HTTP request to the service.
+		DoRequest(r *http.Request) (*http.Response, error)
+		// Clone a new Service.
+		Clone() Service
+		// WithLogger enable LogInterceptor.
+		WithLogger() Service
+		// WithoutLogger disable LogInterceptor.
+		WithoutLogger() Service
+	}
+
+	namedService struct {
+		name          string
+		cli           *http.Client
+		opts          []Option
+		enableLogging bool // default is enable
+	}
+)
+
+// NewService returns a remote service with the given name.
+// opts are used to customize the *http.Client.
+func NewService(name string, opts ...Option) Service {
+	return NewServiceWithClient(name, http.DefaultClient, opts...)
+}
+
+// NewServiceWithClient returns a remote service with the given name.
+// opts are used to customize the *http.Client.
+func NewServiceWithClient(name string, cli *http.Client, opts ...Option) Service {
+	return namedService{
+		name:          name,
+		cli:           cli,
+		opts:          opts,
+		enableLogging: true,
+	}
+}
+
+// Do sends an HTTP request with the given arguments and returns an HTTP response.
+func (s namedService) Do(ctx context.Context, method, url string, data any) (*http.Response, error) {
+	req, err := buildRequest(ctx, method, url, data)
+	if err != nil {
+		return nil, err
+	}
+
+	return s.DoRequest(req)
+}
+
+// DoRequest sends an HTTP request to the service.
+func (s namedService) DoRequest(r *http.Request) (*http.Response, error) {
+	return request(r, s)
+}
+
+// Clone a new service to use.
+func (s namedService) Clone() Service {
+	return namedService{
+		name:          s.name,
+		cli:           s.cli,
+		opts:          s.opts,
+		enableLogging: s.enableLogging,
+	}
+}
+
+// WithLogger enable logger.
+func (s namedService) WithLogger() Service {
+	s.enableLogging = true
+	return s
+}
+
+// WithoutLogger disable logger.
+func (s namedService) WithoutLogger() Service {
+	s.enableLogging = false
+	return s
+}
+
+func (s namedService) do(r *http.Request) (resp *http.Response, err error) {
+	for _, opt := range s.opts {
+		r = opt(r)
+	}
+
+	brk := breaker.GetBreaker(s.name)
+	err = brk.DoWithAcceptable(func() error {
+		resp, err = s.cli.Do(r)
+		return err
+	}, func(err error) bool {
+		return err == nil && resp.StatusCode < http.StatusInternalServerError
+	})
+
+	return
+}
+
+func (s namedService) enableLogger() bool {
+	return s.enableLogging
+}

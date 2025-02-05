@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error" : "Erro de sistema",
+  "fixed_earn_compliance_reject" : "Região restrita",
+  "fixed_earn_risk_reject" : "Sob controlo de risco",
+  "fixed_earn_request_fail" : "O pedido falhou, tente novamente",
+  "fixed_earn_invalid_parameters" : "Parâmetros inválidos",
+  "fixed_earn_balance_not_enough" : "Insufficient balance",
+  "fixed_earn_transfer_failed" : "A transferência falhou. Tente novamente.",
+  "fixed_earn_invalid_coin" : "Moeda inválida",
+  "fixed_earn_invalid_product" : "Produto inválido",
+  "fixed_earn_exceed_platform_limit" : "Excede o limite máximo",
+  "fixed_earn_exceed_user_limit" : "Ultrapassa o limite máximo individual",
+  "fixed_earn_below_min_amount" : "Menos do que o montante mínimo de subscrição",
+  "fixed_earn_exceed_product_limit" : "Excede a quota total do produto",
+  "fixed_earn_exceed_user_product_limit" : "Ultrapassa o limite de subscrição individual",
+  "fixed_earn_no_early_redeem" : "O resgate antecipado não é suportado",
+  "fixed_earn_order_status_changed" : "Estado da ordem alterado",
+  "fixed_earn_order_not_found" : "A ordem não existe",
+  "fixed_earn_user_order_not_match" : "A ordem não corresponde"
+}

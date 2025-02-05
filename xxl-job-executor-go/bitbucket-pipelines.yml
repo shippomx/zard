@@ -1,0 +1,21 @@
+pipelines:
+  pull-requests:
+    '**':
+      - step:
+          name: Lint Go File
+          image: golang:1.22
+          script:
+            - git config --global url."git@bitbucket.org:".insteadOf "https://bitbucket.org/"
+            - export MERGE_BASE=$(git merge-base HEAD origin/master)
+            - go env -w GO111MODULE=on
+            - go env -w GOPRIVATE='bitbucket.org/gatebackend'
+            - go env -w GONOSUMDB='bitbucket.org/gatebackend'
+            - go mod tidy
+            - make lint GOLANGCI_LINT_FLAGS="--new-from-rev=$MERGE_BASE -v"
+      - step:
+          name: Test Coverage
+          image: golang:1.22
+          script:
+            - git config --global url."git@bitbucket.org:".insteadOf "https://bitbucket.org/"
+            - go env -w GOPRIVATE='bitbucket.org/gatebackend'
+            - make test-coverage

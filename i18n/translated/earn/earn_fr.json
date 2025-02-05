@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error" : "Erreur système.",
+  "fixed_earn_compliance_reject" : "Région restreinte",
+  "fixed_earn_risk_reject" : "Sous contrôle des risques",
+  "fixed_earn_request_fail" : "Échec de la demande, veuillez réessayer",
+  "fixed_earn_invalid_parameters" : "Paramètres non valides",
+  "fixed_earn_balance_not_enough" : "Insufficient balance",
+  "fixed_earn_transfer_failed" : "Échec du transfert. Veuillez réessayer.",
+  "fixed_earn_invalid_coin" : "Jeton invalide",
+  "fixed_earn_invalid_product" : "Produit non valide.",
+  "fixed_earn_exceed_platform_limit" : "Limite maximale dépassée",
+  "fixed_earn_exceed_user_limit" : "Limite individuelle maximale dépassée",
+  "fixed_earn_below_min_amount" : "Inférieur au montant minimum de l'abonnement",
+  "fixed_earn_exceed_product_limit" : "Le quota total du produit est dépassé",
+  "fixed_earn_exceed_user_product_limit" : "Plafond de la souscription individuelle dépassé",
+  "fixed_earn_no_early_redeem" : "Le remboursement anticipé n'est pas possible.",
+  "fixed_earn_order_status_changed" : "Le statut de l'ordre a changé",
+  "fixed_earn_order_not_found" : "L'ordre n'existe pas.",
+  "fixed_earn_user_order_not_match" : "L'ordre ne correspond pas"
+}

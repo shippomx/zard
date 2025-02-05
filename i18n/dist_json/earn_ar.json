@@ -1,0 +1,20 @@
+{
+  "fixed_earn_internal_error": "خطأ في النظام",
+  "fixed_earn_compliance_reject": "المنطقة مقيدة",
+  "fixed_earn_risk_reject": "تحت الرقابة على المخاطر",
+  "fixed_earn_request_fail": "فشل الطلب، يرجى المحاولة مرة أخرى",
+  "fixed_earn_invalid_parameters": "معلمات غير صالحة",
+  "fixed_earn_balance_not_enough": "رصيد غير كاف",
+  "fixed_earn_transfer_failed": "فشلت عملية التحويل يرجى المحاولة مرة أخرى.",
+  "fixed_earn_invalid_coin": "عملة غير صالحة",
+  "fixed_earn_invalid_product": "منتج غير صالح",
+  "fixed_earn_exceed_platform_limit": "يتجاوز الحد الأقصى",
+  "fixed_earn_exceed_user_limit": "يتجاوز الحد الأقصى الفردي",
+  "fixed_earn_below_min_amount": "أقل من الحد الأدنى لمبلغ الاشتراك",
+  "fixed_earn_exceed_product_limit": "يتجاوز الحصة الإجمالية للمنتج",
+  "fixed_earn_exceed_user_product_limit": "يتجاوز الحد الأقصى للاشتراك الفردي",
+  "fixed_earn_no_early_redeem": "الاسترداد المبكر غير مدعوم",
+  "fixed_earn_order_status_changed": "تم تغيير حالة الطلب",
+  "fixed_earn_order_not_found": "الطلب غير موجود",
+  "fixed_earn_user_order_not_match": "الطلب لا يتطابق."
+}
